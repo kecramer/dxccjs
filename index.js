@@ -34,5 +34,6 @@ module.exports = class DXCCjs extends events.EventEmitter{
         return this.prefixes[i]
       }
     }
+    return {}
   }
 }
